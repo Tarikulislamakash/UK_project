@@ -1,0 +1,25 @@
+.navbar .container{
+    border-bottom: 4px solid #7C7FC7 !important;
+}
+
+.navbar-nav li a{
+    padding: 0px !important;
+    transition: all 1s !important;
+}
+
+.navbar-nav li a:hover{
+    border-bottom: 1px solid #333 !important;
+}
+
+.navbar-nav li{
+    /* transition: all 1s !important; */
+    margin-left: 2.5rem !important;
+}
+
+.navbar-nav li:hover{
+    /* border-bottom: 1px solid #333 !important; */
+}
+
+.contact-us .nav ul li a i{
+    border: 1px solid #333 !important;
+}
