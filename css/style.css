@@ -58,14 +58,9 @@
 
 /* Who We Are */
 .who-are-we{
-    /* background-image: url('../asset/Group\ 21984.png');
-    background-size: cover;
-    background-position: center right; */
-    /* height: 80vh !important; */
 }
 
 .who-are-we .row{
-    /* padding-right: 0px !important; */
 }
 
 .who-are-we h1,
@@ -208,6 +203,7 @@
     border-radius: 2rem !important;
     color: #fff !important;
     font-size: large;
+    margin-top: 1rem !important;
 }
 
 .book-appointment .appointment-right button:focus
@@ -248,12 +244,6 @@
 .contact-us .nav li a{}
 
 .contact-us .nav li a i{
-    /* border: 2px solid #0d6efd !important; */
-    /* padding: .5rem !important; */
-    /* border-radius: 50% !important; */
-    /* width: 4rem !important; */
-    /* height: 4rem !important; */
-    /* margin: auto !important; */
 }
 
 /* .contact-us-right{
@@ -271,6 +261,16 @@
 /* Footer */
 .footer{
     background-color: #EAEDF6 !important;
+    padding-top: 2rem !important;
+    padding-bottom: 2rem !important;
+}
+
+.footer img{
+    width: 30% !important;
+}
+
+.footer .row .col-md-6 p{
+    margin-bottom: 1rem !important;
 }
 
 .footer .nav{}
@@ -295,3 +295,165 @@
     border-right: 0px !important;
 }
 /* Footer */
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (min-width: 320px) {}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+    .whoAreWe-left{
+        margin-top: 7vh !important;
+        margin-bottom: 20vh;
+    }
+
+    .who-are-we h1{
+        font-size: 200% !important;
+    }
+    
+    .who-are-we h3{
+        font-size: 140% !important;
+    }
+
+    .who-are-we h1,
+    .who-are-we h3,
+    .who-are-we button{
+        text-transform: uppercase !important;
+    }
+
+    .whoAreWe-left p{
+        font-size: 120% !important;
+    }
+
+    .whoAreWe-left button{
+        background-image: linear-gradient(to right, #a1c4fd 0%, #c2e9fb 51%, #a1c4fd 100%);
+        border: none !important;
+        padding: .5rem !important;
+        padding-left: 1.4rem !important;
+        padding-right: 1.4rem !important;
+        border-radius: 2rem !important;
+        color: #fff !important;
+    }
+
+    .our-service{
+        margin-bottom: 28vh !important;
+    }
+
+    .our-service-title{
+        font-size: 200% !important;
+        width: 25vw !important;
+        margin-top: 8vh !important;
+        margin-bottom: 22vh !important;
+    }
+
+    .book-appointment .appointment-right .form-control{
+        padding-top: .3rem !important;
+        padding-bottom: .3rem !important;
+    }
+    
+    .book-appointment .appointment-right button{
+        padding: .5rem !important;
+        padding-left: 2rem !important;
+        padding-right: 2rem !important;
+        font-size: medium;
+    }
+
+    .contact-us .nav li{
+        width: 3rem !important;
+        height: 3rem !important;
+        padding-top: .1rem !important;
+        margin-right: 1rem !important;
+    }
+
+    .contact-us .nav li i{
+        font-size: 150% !important;
+    }
+
+    .footer{
+        padding-top: 1.2rem !important;
+        padding-bottom: 1.2rem !important;
+    }
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .whoAreWe-left{
+        margin-top: 15vh !important;
+        margin-bottom: 35vh !important;
+    }
+
+    .who-are-we h1{
+        font-size: 250% !important;
+    }
+    
+    .who-are-we h3{
+        font-size: 180% !important;
+    }
+
+    .who-are-we h1,
+    .who-are-we h3,
+    .who-are-we button{
+        text-transform: uppercase !important;
+    }
+
+    .whoAreWe-left p{
+        font-size: 1.5rem !important;
+    }
+
+    .whoAreWe-left button{
+        background-image: linear-gradient(to right, #a1c4fd 0%, #c2e9fb 51%, #a1c4fd 100%);
+        border: none !important;
+        padding: .5rem !important;
+        padding-left: 1.4rem !important;
+        padding-right: 1.4rem !important;
+        border-radius: 2rem !important;
+        color: #fff !important;
+    }
+
+    .our-service{
+        margin-bottom: 35vh !important;
+    }
+
+    .our-service-title{
+        font-size: 250% !important;
+    }
+
+    .book-appointment .appointment-right .form-control{
+        padding-top: .5rem !important;
+        padding-bottom: .5rem !important;
+    }
+    
+    .book-appointment .appointment-right button{
+        padding: 1rem !important;
+        padding-left: 2.5rem !important;
+        padding-right: 2.5rem !important;
+        font-size: large;
+    }
+
+    .contact-us .nav li{
+        border: 2px solid #0d6efd !important;
+        border-radius: 50% !important;
+        width: 4rem !important;
+        height: 4rem !important;
+        padding-top: .4rem !important;
+        margin-right: 1.5rem !important;
+    }
+
+    .contact-us .nav li i{
+        font-size: 200% !important;
+    }
+
+    .footer{
+        padding-top: 2rem !important;
+        padding-bottom: 2rem !important;
+    }
+}
