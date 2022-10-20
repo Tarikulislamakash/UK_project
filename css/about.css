@@ -57,23 +57,23 @@
 
 
 /* Who We Are */
-.who-are-we{
+.our-journey{
 }
 
-.who-are-we .row{
+.our-journey .row{
 }
 
-.who-are-we h1,
-.who-are-we h3,
-.who-are-we button{
+.our-journey h1,
+.our-journey h3,
+.our-journey button{
     text-transform: uppercase !important;
 }
 
-.whoAreWe-left p{
+.our-journey-left p{
     font-size: 1.5rem !important;
 }
 
-.whoAreWe-left button{
+.our-journey-left button{
     background-image: linear-gradient(to right, #a1c4fd 0%, #c2e9fb 51%, #a1c4fd 100%);
     border: none !important;
     padding: .5rem !important;
@@ -83,7 +83,7 @@
     color: #fff !important;
 }
 
-.whoAreWe-right{
+.our-journey-right{
     position: absolute;
     top: 0;
     right: 0;
