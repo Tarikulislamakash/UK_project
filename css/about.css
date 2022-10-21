@@ -56,31 +56,35 @@
 /* Header */
 
 
-/* Who We Are */
+/* Our Journey */
 .our-journey{
+    margin-top: 3% !important;
+    margin-bottom: 10% !important;
 }
 
 .our-journey .row{
 }
 
-.our-journey h1,
-.our-journey h3,
-.our-journey button{
-    text-transform: uppercase !important;
+.our-journey h2{
+    width: 50% !important;
+    border-bottom: 2px dotted #87ACD2 !important;
+    margin-bottom: 5% !important;
 }
 
 .our-journey-left p{
-    font-size: 1.5rem !important;
+    font-size: 1.1rem !important;
 }
 
 .our-journey-left button{
     background-image: linear-gradient(to right, #a1c4fd 0%, #c2e9fb 51%, #a1c4fd 100%);
     border: none !important;
     padding: .5rem !important;
-    padding-left: 1.4rem !important;
-    padding-right: 1.4rem !important;
+    padding-left: 3rem !important;
+    padding-right: 3rem !important;
     border-radius: 2rem !important;
     color: #fff !important;
+    text-transform: uppercase;
+    font-size: 120%;
 }
 
 .our-journey-right{
@@ -89,10 +93,32 @@
     right: 0;
     padding-right: 0px !important;
 }
-/* Who We Are */
+/* Our Journey */
 
 
-/* Oue Service */
+/* leadership */
+
+.established-leadership{
+    margin-bottom: 8% !important;
+}
+
+.leadership{
+    margin-top: 6% !important;
+}
+
+.leadership .col-md-4 div{
+    border-radius: 5% !important;
+}
+
+.leadership .col-md-4{
+    transition: 1s all;
+}
+
+.leadership .col-md-4:hover{
+    transition: 1s all;
+    transform: scale(1.1);
+}
+
 .our-service{
     height: 100vh;
     background-image: url('../asset/Group\ 21983@2x.png');
@@ -135,37 +161,7 @@
     color: #fff !important;
 }
 
-.splide__track{
-    margin-bottom: 3rem !important;
-}
-
-.splide__arrows{
-    display: none !important;
-}
-
-.splide__pagination__page .is-active{
-    /* color: #87ADD2 !important; */
-}
-
-.splide__pagination__page {
-    width: .4rem !important;
-    height: .4rem !important;
-}
-
-.splide__pagination__page.is-active {
-    background-color: #87ACD2 !important;
-}
-
-.splide__pagination{
-    /* position: absolute;
-    bottom: 0; */
-    /* width: 1rem; */
-    /* height: 1rem; */
-    /* color: #ededed !important; */
-    /* margin-top: 5rem !important; */
-    /* margin-bottom: 1rem !important; */
-}
-/* Oue Service */
+/* leadership */
 
 /* Book Appointment */
 .book-appointment{}
@@ -228,7 +224,16 @@
 
 
 /* Contact Us */
-.contact-us{}
+.contact-us{
+    
+}
+
+.contact-us-right{
+    position: absolute;
+    right: 0;
+    padding-right: 0px !important;
+    margin-bottom: 25vh !important;
+}
 
 .contact-us .nav{}
 
@@ -244,6 +249,12 @@
 .contact-us .nav li a{}
 
 .contact-us .nav li a i{
+    /* border: 2px solid #0d6efd !important; */
+    /* padding: .5rem !important; */
+    /* border-radius: 50% !important; */
+    /* width: 4rem !important; */
+    /* height: 4rem !important; */
+    /* margin: auto !important; */
 }
 
 /* .contact-us-right{
@@ -362,6 +373,15 @@
         font-size: medium;
     }
 
+    .contact-us{
+        /* margin-top: 40vh; */
+        margin-bottom: 25% !important;
+    }
+
+    .contact-us-left{
+        margin-top: 20% !important;
+    }
+
     .contact-us .nav li{
         width: 3rem !important;
         height: 3rem !important;
@@ -435,6 +455,19 @@
         font-size: large;
     }
 
+    .contact-us{
+        /* margin-top: 65vh; */
+        margin-bottom: 22% !important;
+    }
+
+    .contact-us .row{
+        
+    }
+
+    .contact-us-left{
+        margin-top: 45vh !important;
+    }
+
     .contact-us .nav li{
         border: 2px solid #0d6efd !important;
         border-radius: 50% !important;
@@ -446,6 +479,11 @@
 
     .contact-us .nav li i{
         font-size: 200% !important;
+    }
+
+    .footer{
+        padding-top: 2rem !important;
+        padding-bottom: 2rem !important;
     }
 
     .footer{
