@@ -56,37 +56,33 @@
 /* Header */
 
 
-/* Vat Filing */
-.cis-return{
-    margin-bottom: 8% !important;
+/* Self */
+.self{
+    margin-bottom: 20% !important;
 }
 
-.cis-return h1{
+.self h1{
     border-bottom: 2px dotted #87ACD2 !important;
     display: inline !important;
 }
 
-.cis-return p{
+.self p{
     margin-top: 10% !important;
     font-size: 138% !important;
     font-weight: 500;
 }
 
-.cis-return p:last-child{
-    margin-top: 0px !important;
-}
-
-.cis-return-right{
+.self-right{
     position: absolute;
     top: 0;
     right: 0;
     padding-right: 0px !important;
 }
 
-.cis-return-left{
+.self-left{
     margin-top: 4% !important;
 }
-/* Vat Filing */
+/* Self */
 
 
 /* Service We offer */
