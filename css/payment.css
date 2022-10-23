@@ -76,6 +76,50 @@
 .payment{
     margin-bottom: 5% !important;
 }
+
+.payment h1,
+.payment h2{
+    color: #000 !important;
+    /* text-align: center !important; */
+}
+
+.payment-inner-section{
+    background-color: #7C7FC7 !important;
+    padding: 5% !important;
+    border-radius: 2rem !important;
+}
+
+.payment-inner-section h1{
+    margin-bottom: 8% !important;
+    font-size: 300% !important;
+}
+
+.payment-inner-section .col-md-10{
+    margin-bottom: 5% !important;
+}
+
+.payment-option{
+    background-color: #DDE1F1 !important;
+    border-radius: 2rem !important;
+    padding: 5% !important;
+    /* font-size: 200% !important; */
+}
+
+.payment-option h2{
+    border-bottom: #7C7FC7 2px dotted !important;
+    display: inline-block !important;
+    color: #000 !important;
+    margin-bottom: 5% !important;
+    font-size: 250% !important;
+}
+
+.option-list{
+    font-size: 160% !important;
+}
+
+.single-option-list{
+    margin-bottom: 2% !important;
+}
 /* payment */
 
 
