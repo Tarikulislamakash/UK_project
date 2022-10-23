@@ -1,24 +1,73 @@
-.navbar .container{
-    border-bottom: 4px solid #7C7FC7 !important;
+/* Header */
+
+.navbar-brand{
+}
+
+.navbar-nav{
+    z-index: 99;
 }
 
 .navbar-nav li a{
+    color: #000 !important;
+}
+
+.bg-light{
+    /* background-color: #fff !important; */
+}
+
+.header{
+    
+}
+
+.header ul li{
+    margin-left: 3rem !important;
+    transition: 1s all;
+}
+
+.header ul li .dropdown-menu{
+    padding: 0rem !important;
+    padding-top: 2% !important;
+    padding-bottom: 2% !important;
+    margin-top: 4% !important
+}
+
+.header ul li .dropdown-menu li{
+    margin-left: 0rem !important;
+    transition: 1s all;
+}
+
+.header ul li .dropdown-menu li a{
+    padding: 5% !important;
+    color: #000 !important;
+}
+
+.header ul li a{
     padding: 0px !important;
-    transition: all 1s !important;
+    color: #000 !important;
 }
 
-.navbar-nav li a:hover{
-    border-bottom: 1px solid #333 !important;
+
+
+.header ul li:after {
+	content: '';
+	display: block;
+	margin: auto;
+	height: 1px;
+	width: 0px;
+	background: transparent;
+	transition: width .5s ease, background-color .5s ease;
 }
 
-.navbar-nav li{
-    /* transition: all 1s !important; */
-    margin-left: 2.5rem !important;
+.header ul .active:after,
+.header ul li:hover:after {
+	width: 100%;
+	background: #000;
 }
 
-.navbar-nav li:hover{
-    /* border-bottom: 1px solid #333 !important; */
+.navbar .container{
+    border-bottom: 4px solid #7C7FC7 !important;
 }
+/* Header */
 
 /* content */
 .content{
