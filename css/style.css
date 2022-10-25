@@ -29,7 +29,7 @@
     padding: 0rem !important;
     padding-top: 2% !important;
     padding-bottom: 2% !important;
-    margin-top: 4% !important
+    margin-top: 2% !important;
 }
 
 .header ul li .dropdown-menu li{
@@ -74,206 +74,7 @@
 /* Header */
 
 
-/* Who We Are */
-.who-are-we{
-}
 
-.who-are-we .row{
-}
-
-.who-are-we h1,
-.who-are-we h3,
-.who-are-we button{
-    text-transform: uppercase !important;
-}
-
-.whoAreWe-left p{
-    font-size: 1.5rem !important;
-}
-
-.whoAreWe-left button{
-    background-image: linear-gradient(to right, #a1c4fd 0%, #c2e9fb 51%, #a1c4fd 100%);
-    border: none !important;
-    padding: .5rem !important;
-    padding-left: 1.4rem !important;
-    padding-right: 1.4rem !important;
-    border-radius: 2rem !important;
-    color: #fff !important;
-}
-
-.whoAreWe-right{
-    position: absolute;
-    top: 0 !important;
-    right: 0;
-    padding-right: 0px !important;
-}
-/* Who We Are */
-
-
-/* Oue Service */
-.our-service{
-    height: 100vh;
-    background-image: url('../asset/Group\ 21983@2x.png');
-    background-position: center left;
-    background-size: 40% 100%;
-    background-repeat: no-repeat;
-}
-
-.our-service h1{
-    border-bottom: 2px dotted #333;
-    border-color: blueviolet;
-}
-
-.single-service{
-    background-color: #fff !important;
-    border: 1px solid #333;
-    border-radius: 2.5rem;
-}
-
-.service .col-md-3{
-    transition: 1s all;
-}
-
-.service .col-md-3:hover {
-    padding: 0px Solid !important;
-    transform: scale(1.1);
-}
-
-.single-service h5{
-    border-bottom: 1px dotted blueviolet;
-}
-
-.single-service button{
-    background-image: linear-gradient(to right, #a1c4fd 0%, #c2e9fb 51%, #a1c4fd 100%);
-    border: none !important;
-    padding: .5rem !important;
-    padding-left: 1.4rem !important;
-    padding-right: 1.4rem !important;
-    border-radius: 2rem !important;
-    color: #fff !important;
-}
-
-.splide__track{
-    margin-bottom: 3rem !important;
-}
-
-.splide__arrows{
-    display: none !important;
-}
-
-.splide__pagination__page .is-active{
-    /* color: #87ADD2 !important; */
-}
-
-.splide__pagination__page {
-    width: .4rem !important;
-    height: .4rem !important;
-}
-
-.splide__pagination__page.is-active {
-    background-color: #87ACD2 !important;
-}
-
-.splide__pagination{
-    /* position: absolute;
-    bottom: 0; */
-    /* width: 1rem; */
-    /* height: 1rem; */
-    /* color: #ededed !important; */
-    /* margin-top: 5rem !important; */
-    /* margin-bottom: 1rem !important; */
-}
-/* Oue Service */
-
-/* Book Appointment */
-.book-appointment{}
-.book-appointment .appointment-left{
-    position: absolute;
-    left: -3.5rem !important;
-    padding-left: 0 !important;
-}
-.book-appointment .appointment-right{}
-.book-appointment .appointment-right h6,
-.book-appointment .appointment-right p,
-.book-appointment .appointment-right label{
-    color: #666 !important;
-}
-
-.book-appointment .appointment-right .form-control{
-    background-color: #E5E8F4 !important;
-    border-radius: .5rem !important;
-    padding-left: 1.5rem !important;
-    padding-top: .5rem !important;
-    padding-bottom: .5rem !important;
-    border: .1rem solid #555 !important;
-}
-
-.book-appointment .appointment-right label{
-    text-align: left !important;
-}
-
-.book-appointment .appointment-right button{
-    background-image: linear-gradient(to right, #a1c4fd 0%, #c2e9fb 51%, #a1c4fd 100%);
-    border: none !important;
-    padding: 1rem !important;
-    padding-left: 2.5rem !important;
-    padding-right: 2.5rem !important;
-    border-radius: 2rem !important;
-    color: #fff !important;
-    font-size: large;
-    margin-top: 1rem !important;
-}
-
-.book-appointment .appointment-right button:focus
-.book-appointment .appointment-right button:active
-{
-    box-shadow: none !important;
-    border: none !important;
-    outline: none !important;
-}
-
-.book-appointment .appointment-right .form-control:active,
-.book-appointment .appointment-right .form-control:focus{
-    /* outline: none !important;
-    border: 0px !important; */
-    box-shadow: none !important;
-}
-
-.book-appointment .appointment-right{}
-.book-appointment{}
-.book-appointment{}
-/* Book Appointment */
-
-
-/* Contact Us */
-.contact-us{}
-
-.contact-us .nav{}
-
-.contact-us .nav li{
-    border: 2px solid #0d6efd !important;
-    border-radius: 50% !important;
-    width: 4rem !important;
-    height: 4rem !important;
-    padding-top: .4rem !important;
-    margin-right: 1.5rem !important;
-}
-
-.contact-us .nav li a{}
-
-.contact-us .nav li a i{
-}
-
-/* .contact-us-right{
-    position: absolute;
-    right: 0;
-    padding-right: 0 !important;
-}
-
-.contact-us-right img{
-    height: 50vh !important;
-} */
-/* Contact Us */
 
 
 /* Footer */
@@ -315,6 +116,20 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (min-width: 320px) {
 
+    .footer-right{
+        display: flex !important;
+        flex-direction: column;
+        align-items: center !important;
+        margin-top: 5% !important;
+    }
+
+    .footer-left p{
+        text-align: center !important;
+    }
+
+    .footer{
+        font-size: 75% !important;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -325,76 +140,30 @@
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
 
+    .footer-right{
+        justify-content: end !important;
+        margin-top: 0% !important;
+    }
+
+    .footer .nav li a {
+        padding-left: .5rem !important;
+        padding-right: .5rem !important;
+    }
+
+    .footer-left p{
+        text-align: left !important;
+    }
+
+    .footer{
+        font-size: 85% !important;
+    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
 
-    .whoAreWe-left{
-        margin-top: 7vh !important;
-        margin-bottom: 20vh;
-    }
-
-    .who-are-we h1{
-        font-size: 200% !important;
-    }
-    
-    .who-are-we h3{
-        font-size: 140% !important;
-    }
-
-    .who-are-we h1,
-    .who-are-we h3,
-    .who-are-we button{
-        text-transform: uppercase !important;
-    }
-
-    .whoAreWe-left p{
-        font-size: 120% !important;
-    }
-
-    .whoAreWe-left button{
-        background-image: linear-gradient(to right, #a1c4fd 0%, #c2e9fb 51%, #a1c4fd 100%);
-        border: none !important;
-        padding: .5rem !important;
-        padding-left: 1.4rem !important;
-        padding-right: 1.4rem !important;
-        border-radius: 2rem !important;
-        color: #fff !important;
-    }
-
-    .our-service{
-        margin-bottom: 28vh !important;
-    }
-
-    .our-service-title{
-        font-size: 200% !important;
-        width: 25vw !important;
-        margin-top: 8vh !important;
-        margin-bottom: 22vh !important;
-    }
-
-    .book-appointment .appointment-right .form-control{
-        padding-top: .3rem !important;
-        padding-bottom: .3rem !important;
-    }
-    
-    .book-appointment .appointment-right button{
-        padding: .5rem !important;
-        padding-left: 2rem !important;
-        padding-right: 2rem !important;
-        font-size: medium;
-    }
-
-    .contact-us .nav li{
-        width: 3rem !important;
-        height: 3rem !important;
-        padding-top: .1rem !important;
-        margin-right: 1rem !important;
-    }
-
-    .contact-us .nav li i{
-        font-size: 150% !important;
+    .header ul li{
+        margin-left: 2rem !important;
     }
 
     .footer{
@@ -402,78 +171,62 @@
         padding-bottom: 1.2rem !important;
     }
 
+    .footer .nav li a {
+        padding-left: .8rem !important;
+        padding-right: .8rem !important;
+    }
+
+    .footer{
+        font-size: 100% !important;
+    }
+
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-    .whoAreWe-left{
-        margin-top: 15vh !important;
-        margin-bottom: 35vh !important;
-    }
 
-    .who-are-we h1{
-        font-size: 250% !important;
-    }
-    
-    .who-are-we h3{
-        font-size: 180% !important;
-    }
-
-    .who-are-we h1,
-    .who-are-we h3,
-    .who-are-we button{
-        text-transform: uppercase !important;
-    }
-
-    .whoAreWe-left p{
-        font-size: 1.5rem !important;
-    }
-
-    .whoAreWe-left button{
-        background-image: linear-gradient(to right, #a1c4fd 0%, #c2e9fb 51%, #a1c4fd 100%);
-        border: none !important;
-        padding: .5rem !important;
-        padding-left: 1.4rem !important;
-        padding-right: 1.4rem !important;
-        border-radius: 2rem !important;
-        color: #fff !important;
-    }
-
-    .our-service{
-        margin-bottom: 35vh !important;
-    }
-
-    .our-service-title{
-        font-size: 250% !important;
-    }
-
-    .book-appointment .appointment-right .form-control{
-        padding-top: .5rem !important;
-        padding-bottom: .5rem !important;
-    }
-    
-    .book-appointment .appointment-right button{
-        padding: 1rem !important;
-        padding-left: 2.5rem !important;
-        padding-right: 2.5rem !important;
-        font-size: large;
-    }
-
-    .contact-us .nav li{
-        border: 2px solid #0d6efd !important;
-        border-radius: 50% !important;
-        width: 4rem !important;
-        height: 4rem !important;
-        padding-top: .4rem !important;
-        margin-right: 1.5rem !important;
-    }
-
-    .contact-us .nav li i{
-        font-size: 200% !important;
+    .header ul li{
+        margin-left: 3rem !important;
     }
 
     .footer{
         padding-top: 2rem !important;
         padding-bottom: 2rem !important;
     }
+
+    .footer img{
+        width: 25% !important;
+    }
+}
+
+
+
+
+
+/* Extra large devices (large laptops and desktops, 1500px and up) */
+@media only screen and (min-width: 1500px) {
+
+    .header ul li .dropdown-menu li a{
+        padding: 8% !important;
+    }
+
+    .header ul li{
+        margin-left: 5rem !important;
+    }
+}
+
+
+
+
+
+/* Extra large devices (large laptops and desktops, 1800px and up) */
+@media only screen and (min-width: 1800px) {
+
+    /* .header ul li .dropdown-menu li a{
+        padding: 8% !important;
+    }
+
+    .header ul li{
+        margin-left: 5rem !important;
+    } */
 }
