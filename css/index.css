@@ -139,46 +139,46 @@
 /* Book Appointment */
 
 
-/* Contact Us */
-.contact-us{}
-
-.contact-us .nav{}
-
-.contact-us .nav li{
-    border: 2px solid #0d6efd !important;
-    border-radius: 50% !important;
-    width: 4rem !important;
-    height: 4rem !important;
-    padding-top: .4rem !important;
-    margin-right: 1.5rem !important;
-}
-
-.contact-us .nav li a{}
-
-.contact-us .nav li a i{
-}
-
-/* .contact-us-right{
-    position: absolute;
-    right: 0;
-    padding-right: 0 !important;
-}
-
-.contact-us-right img{
-    height: 50vh !important;
-} */
-/* Contact Us */
-
-
-
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (min-width: 320px) {
-    /* Oue Service */
 
+    .whoAreWe-right{
+        top: 18vw !important;
+    }
+
+    .whoAreWe-right img{
+        width: 70% !important;
+        position: absolute;
+        right: 0 !important;
+    }
+
+    .whoAreWe-left{
+        margin-top: 70vw !important;
+    }
+
+    .whoAreWe-left h1{
+        font-size: 5vw !important;
+    }
+    .whoAreWe-left p{
+        font-size: 3vw !important;
+        margin-bottom: 0 !important;
+    }
+
+    .whoAreWe-left h3{
+        font-size: 4vw !important;
+        margin-top: 2vw !important;
+    }
+    .whoAreWe-left button{
+        font-size: 2.5vw !important;
+        margin-top: 2vw !important;
+        margin-bottom: 2vw !important;
+    }
+
+    /* Oue Service */
     .our-service{
         height: auto;
-        margin-top: 20% !important;
+        margin-top: 5vw !important;
         background-position: top left;
         background-size: 50% 60vh;
     }
@@ -186,6 +186,7 @@
     .our-service h1{
         padding-top: 5% !important;
         margin-bottom: 15% !important;
+        font-size: 1.2rem !important;
     }
 
     .single-service{
@@ -200,78 +201,141 @@
         padding-left: 20% !important;
         padding-right: 20% !important;
     }
-
-    /* .our-service{
-        height: 100vh;
-        background-image: url('../asset/Group\ 21983@2x.png');
-        background-position: center left;
-        background-size: 40% 100%;
-        background-repeat: no-repeat;
-    }
-
-    .our-service h1{
-        border-bottom: 2px dotted #333;
-        border-color: blueviolet;
-        display: inline-block;
-    }
-
-    .single-service{
-        background-color: #fff !important;
-        border: 1px solid #333;
-        border-radius: 2.5rem;
-    }
-
-    .service .col-md-3{
-        transition: 1s all;
-    }
-
-    .service .col-md-3:hover {
-        padding: 0px Solid !important;
-        transform: scale(1.1);
-    }
-
-    .single-service h5{
-        border-bottom: 1px dotted blueviolet;
-    }
-
-    .single-service button{
-        background-image: linear-gradient(to right, #a1c4fd 0%, #c2e9fb 51%, #a1c4fd 100%);
-        border: none !important;
-        padding: .5rem !important;
-        padding-left: 1.4rem !important;
-        padding-right: 1.4rem !important;
-        border-radius: 2rem !important;
-        color: #fff !important;
-    } */
     /* Oue Service */
+
+
+    /* Book Appointment */
+    .book-appointment{
+        margin-top: 4vw !important;
+    }
+
+    .book-appointment .appointment-right{
+        margin-top: 90vw !important;
+    }
+
+    .book-appointment .appointment-right button{
+        padding: .5rem !important;
+        padding-left: 2rem !important;
+        padding-right: 2rem !important;
+        font-size: small;
+    }
+    /* Book Appointment */
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 500px) {
+
+    .whoAreWe-right{
+        top: 18vw !important;
+    }
+
+    .whoAreWe-right img{
+        width: 40vw !important;
+        height: 45vw !important;
+    }
+
+    .whoAreWe-left{
+        margin-top: 10vw !important;
+    }
+
+    .whoAreWe-left h1{
+        font-size: 3.5vw !important;
+    }
+    .whoAreWe-left p{
+        font-size: 2.3vw !important;
+        margin-bottom: 0 !important;
+    }
+
+    .whoAreWe-left h3{
+        font-size: 2.5vw !important;
+        margin-top: 2vw !important;
+    }
+    .whoAreWe-left button{
+        font-size: 2.2vw !important;
+        margin-top: 2vw !important;
+        margin-bottom: 2vw !important;
+    }
 
     .our-service{
-        margin-top: 35% !important;
+        margin-top: 15vw !important;
     }
 
     .our-service h1{
         text-align: center !important;
+        font-size: 1.5rem !important;
     }
 
     .service{
         padding-left: 0% !important;
         padding-right: 0% !important;
     }
+
+    .appointment-right{
+        padding-left: 8vw !important;
+        padding-right: 8vw !important;
+    }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
+
+    .whoAreWe-right{
+        top: 18vw !important;
+    }
+
+    .whoAreWe-right img{
+        width: 80% !important;
+        height: 50vw !important;
+    }
+
+    .whoAreWe-left{
+        margin-top: 10vw !important;
+    }
+
+    .whoAreWe-left h1{
+        font-size: 3.5vw !important;
+    }
+    .whoAreWe-left p{
+        font-size: 2.3vw !important;
+        margin-bottom: 0 !important;
+    }
+
+    .whoAreWe-left h3{
+        font-size: 2.5vw !important;
+        margin-top: 2vw !important;
+    }
+    .whoAreWe-left button{
+        font-size: 2.2vw !important;
+        margin-top: 2vw !important;
+        margin-bottom: 2vw !important;
+    }
+
     .our-service{
         margin-top: 12% !important;
+    }
+
+    .our-service h1{
+        font-size: 1.8rem !important;
+    }
+
+    .book-appointment .appointment-right{
+        padding-left: 2vw !important;
+        padding-right: 2vw !important;
+        margin-top: 0 !important;
     }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+
+    .whoAreWe-right img{
+        width: 100% !important;
+        height: auto !important;
+    }
+
+    .whoAreWe-right{
+        top: 0px !important;
+    }
 
     .whoAreWe-left{
         margin-top: 7vh !important;
@@ -304,6 +368,7 @@
         padding-right: 1.4rem !important;
         border-radius: 2rem !important;
         color: #fff !important;
+        font-size: 1.8vw !important;
     }
 
     .our-service{
@@ -313,6 +378,7 @@
 
     .our-service h1{
         margin-bottom: 8% !important;
+        font-size: 2rem !important;
     }
 
     .our-service-title{
@@ -331,17 +397,6 @@
         padding-left: 2rem !important;
         padding-right: 2rem !important;
         font-size: medium;
-    }
-
-    .contact-us .nav li{
-        width: 3rem !important;
-        height: 3rem !important;
-        padding-top: .1rem !important;
-        margin-right: 1rem !important;
-    }
-
-    .contact-us .nav li i{
-        font-size: 150% !important;
     }
 
 }
@@ -375,10 +430,11 @@
         background-image: linear-gradient(to right, #a1c4fd 0%, #c2e9fb 51%, #a1c4fd 100%);
         border: none !important;
         padding: .5rem !important;
-        padding-left: 1.4rem !important;
-        padding-right: 1.4rem !important;
+        padding-left: 2rem !important;
+        padding-right: 2rem !important;
         border-radius: 2rem !important;
         color: #fff !important;
+        font-size: 1.5vw !important;
     }
 
     .our-service{
@@ -401,16 +457,4 @@
         font-size: large;
     }
 
-    .contact-us .nav li{
-        border: 2px solid #0d6efd !important;
-        border-radius: 50% !important;
-        width: 4rem !important;
-        height: 4rem !important;
-        padding-top: .4rem !important;
-        margin-right: 1.5rem !important;
-    }
-
-    .contact-us .nav li i{
-        font-size: 200% !important;
-    }
 }
