@@ -23,6 +23,13 @@
 		/>
 		<!-- Font Awesome CDN -->
 
+		<!-- Swiper Slide -->
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+		/>
+		<!-- Swiper Slide -->
+
 		<link href="css/index.css" rel="stylesheet" />
 		<link rel="stylesheet" href="css/style.css" />
 		<style>
@@ -197,61 +204,79 @@
 					</div>
 				</div>
 				<div class="row service">
-					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-3">
-						<div
-							class="single-service py-5 px-3 d-flex flex-column align-items-center"
-						>
-							<h5 class="pb-3 text-center">
-								Bookkeeping and Accounting
-							</h5>
-							<p class="text-center mt-4">
-								Our certified and qualified accountants willhelp
-								youto update your books.
-							</p>
-							<button class="mt-4">LEARN MORE</button>
+					<div class="swiper mySwiper">
+						<div class="swiper-wrapper">
+							<div
+								class="col-xs-6 col-sm-6 col-md-6 col-lg-3 swiper-slide g-0"
+							>
+								<div
+									class="single-service d-flex flex-column align-items-center"
+								>
+									<h5 class="pb-3 text-center">
+										Bookkeeping and Accounting
+									</h5>
+									<p class="text-center">
+										Our certified and qualified accountants
+										willhelp youto update your books.
+									</p>
+									<button class="">LEARN MORE</button>
+								</div>
+							</div>
+							<div
+								class="col-xs-6 col-sm-6 col-md-6 col-lg-3 swiper-slide g-0"
+							>
+								<div
+									class="single-service d-flex flex-column align-items-center"
+								>
+									<h5 class="pb-3 text-center">
+										Bookkeeping and Accounting
+									</h5>
+									<p class="text-center">
+										Our certified and qualified accountants
+										willhelp youto update your books.
+									</p>
+									<button class="">LEARN MORE</button>
+								</div>
+							</div>
+							<div
+								class="col-xs-6 col-sm-6 col-md-6 col-lg-3 swiper-slide g-0"
+							>
+								<div
+									class="single-service d-flex flex-column align-items-center"
+								>
+									<h5 class="pb-3 text-center">
+										Bookkeeping and Accounting
+									</h5>
+									<p class="text-center">
+										Our certified and qualified accountants
+										willhelp youto update your books.
+									</p>
+									<button class="">LEARN MORE</button>
+								</div>
+							</div>
+							<div
+								class="col-xs-6 col-sm-6 col-md-6 col-lg-3 swiper-slide g-0"
+							>
+								<div
+									class="single-service d-flex flex-column align-items-center"
+								>
+									<h5 class="pb-3 text-center">
+										Bookkeeping and Accounting
+									</h5>
+									<p class="text-center">
+										Our certified and qualified accountants
+										willhelp youto update your books.
+									</p>
+									<button class="">LEARN MORE</button>
+								</div>
+							</div>
 						</div>
-					</div>
-					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-3">
-						<div
-							class="single-service py-5 px-3 d-flex flex-column align-items-center"
-						>
-							<h5 class="pb-3 text-center">
-								Bookkeeping and Accounting
-							</h5>
-							<p class="text-center mt-4">
-								Our certified and qualified accountants willhelp
-								youto update your books.
-							</p>
-							<button class="mt-4">LEARN MORE</button>
-						</div>
-					</div>
-					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-3">
-						<div
-							class="single-service py-5 px-3 d-flex flex-column align-items-center"
-						>
-							<h5 class="pb-3 text-center">
-								Bookkeeping and Accounting
-							</h5>
-							<p class="text-center mt-4">
-								Our certified and qualified accountants willhelp
-								youto update your books.
-							</p>
-							<button class="mt-4">LEARN MORE</button>
-						</div>
-					</div>
-					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-3">
-						<div
-							class="single-service py-5 px-3 d-flex flex-column align-items-center"
-						>
-							<h5 class="pb-3 text-center">
-								Bookkeeping and Accounting
-							</h5>
-							<p class="text-center mt-4">
-								Our certified and qualified accountants willhelp
-								youto update your books.
-							</p>
-							<button class="mt-4">LEARN MORE</button>
-						</div>
+
+						<!-- Swiper Slide Button -->
+						<!-- <div class="swiper-button-next"></div> -->
+						<!-- <div class="swiper-button-prev"></div> -->
+						<div class="swiper-pagination"></div>
+						<!-- Swiper Slide Button -->
 					</div>
 				</div>
 			</div>
@@ -507,5 +532,48 @@
 			});
 			// DOMContentLoaded  end
 		</script>
+
+		<!-- Swiper JS -->
+		<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+		<!-- Swiper JS -->
+
+		<!-- Initialize Swiper -->
+		<script>
+			var swiper = new Swiper(".mySwiper", {
+				// slidesPerView: 3,
+				spaceBetween: 20,
+				loop: true,
+				centerSlide: "true",
+				fade: "true",
+				grabCursor: "true",
+				pagination: {
+					el: ".swiper-pagination",
+					clickable: true,
+				},
+				navigation: {
+					nextEl: ".swiper-button-next",
+					prevEl: ".swiper-button-prev",
+				},
+
+				breakpoints: {
+					0: {
+						slidesPerView: 1,
+					},
+					500: {
+						slidesPerView: 2,
+					},
+					768: {
+						slidesPerView: 3,
+					},
+					992: {
+						slidesPerView: 3,
+					},
+					1200: {
+						slidesPerView: 4,
+					},
+				},
+			});
+		</script>
+		<!-- Initialize Swiper -->
 	</body>
 </html>
