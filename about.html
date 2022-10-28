@@ -23,7 +23,15 @@
 		/>
 		<!-- Font Awesome CDN -->
 
+		<!-- Swiper Slide -->
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+		/>
+		<!-- Swiper Slide -->
+
 		<link href="css/about.css" rel="stylesheet" />
+		<link rel="stylesheet" href="css/style.css" />
 
 		<style>
 			@media all and (min-width: 992px) {
@@ -45,7 +53,7 @@
 		<!-- Header -->
 		<div class="header">
 			<nav class="navbar navbar-expand-lg navbar-light">
-				<div class="container pb-3">
+				<div class="container">
 					<a class="navbar-brand" href="#">
 						<img src="asset/Group 21821.png" alt="" />
 					</a>
@@ -204,63 +212,69 @@
 			<div class="container">
 				<div class="row d-flex justify-content-center">
 					<div class="col-md-12">
-						<p class="fw-bold fs-5">
+						<p class="fw-bold">
 							We are a dedicated team of experienced sta, our aim
 							is to provide thehighest level of professional
 							services witha friendly approach. ere are 2 practice
 							partners who are the direct contact for every
 							client.
 						</p>
-						<h1
-							class="text-center established-leadership-title mt-4 mb-4"
-						>
+						<h1 class="text-center established-leadership-title">
 							Our Established Leadership
 						</h1>
-						<p class="fw-bold text-secondary fs-5 text-center">
+						<p class="fw-bold text-secondary text-center">
 							Ourdedicatedexpert team is ready to help you with
 							all your accountancy andSelf assessment.
 						</p>
 					</div>
 				</div>
+
 				<div class="row leadership">
-					<div class="col-md-4">
-						<div
-							class="single-leadership py-4 px-4 d-flex flex-column align-items-center border border-primary rounded"
-						>
-							<img
-								src="asset/Group 21989.png"
-								alt=""
-								class="img-fluid mb-4"
-							/>
-							<h5 class="text-center">Parvard Zengcuan</h5>
-							<p class="text-center">CEO & Founder</p>
+					<div class="swiper mySwiper">
+						<div class="swiper-wrapper">
+							<div class="col-md-4 swiper-slide">
+								<div
+									class="single-leadership py-4 px-4 d-flex flex-column align-items-center border border-primary rounded"
+								>
+									<img
+										src="asset/Group 21989.png"
+										alt=""
+										class="img-fluid mb-4"
+									/>
+									<h5 class="text-center">
+										Parvard Zengcuan
+									</h5>
+									<p class="text-center">CEO & Founder</p>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div
+									class="single-leadership py-4 px-4 d-flex flex-column align-items-center border border-primary rounded"
+								>
+									<img
+										src="asset/Group 21987.png"
+										alt=""
+										class="img-fluid mb-4"
+									/>
+									<h5 class="text-center">Agata Venie</h5>
+									<p class="text-center">VP Accounting</p>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div
+									class="single-leadership py-4 px-4 d-flex flex-column align-items-center border border-primary rounded"
+								>
+									<img
+										src="asset/Group 21988.png"
+										alt=""
+										class="img-fluid mb-4"
+									/>
+									<h5 class="text-center">Sonia Brooklyn</h5>
+									<p class="text-center">VP Management</p>
+								</div>
+							</div>
 						</div>
-					</div>
-					<div class="col-md-4">
-						<div
-							class="single-leadership py-4 px-4 d-flex flex-column align-items-center border border-primary rounded"
-						>
-							<img
-								src="asset/Group 21987.png"
-								alt=""
-								class="img-fluid mb-4"
-							/>
-							<h5 class="text-center">Agata Venie</h5>
-							<p class="text-center">VP Accounting</p>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<div
-							class="single-leadership py-4 px-4 d-flex flex-column align-items-center border border-primary rounded"
-						>
-							<img
-								src="asset/Group 21988.png"
-								alt=""
-								class="img-fluid mb-4"
-							/>
-							<h5 class="text-center">Sonia Brooklyn</h5>
-							<p class="text-center">VP Management</p>
-						</div>
+						<div class="swiper-pagination"></div>
 					</div>
 				</div>
 			</div>
@@ -327,7 +341,7 @@
 		<!-- Footer -->
 		<div class="footer">
 			<div class="container">
-				<div class="row">
+				<div class="row footer-img">
 					<div class="col-md-12 text-center mb-4">
 						<img
 							class="img-fluid"
@@ -336,14 +350,16 @@
 						/>
 					</div>
 				</div>
-				<div class="row d-flex align-items-center">
-					<div class="col-md-6">
+				<div class="row d-flex align-items-center footer-list">
+					<div class="col-md-6 footer-left">
 						<p style="margin-bottom: 0px !important">
 							frontiersconsulting.com © Copyright 2022. All Rights
 							Reserved
 						</p>
 					</div>
-					<div class="col-md-6 d-flex justify-content-end">
+					<div
+						class="col-md-6 d-flex justify-content-end footer-right"
+					>
 						<ul class="nav">
 							<li class="nav-item">
 								<a
@@ -434,5 +450,48 @@
 			});
 			// DOMContentLoaded  end
 		</script>
+
+		<!-- Swiper JS -->
+		<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+		<!-- Swiper JS -->
+
+		<!-- Initialize Swiper -->
+		<script>
+			var swiper = new Swiper(".mySwiper", {
+				// slidesPerView: 3,
+				spaceBetween: 50,
+				loop: true,
+				centerSlide: "true",
+				fade: "true",
+				grabCursor: "true",
+				pagination: {
+					el: ".swiper-pagination",
+					clickable: true,
+				},
+				navigation: {
+					nextEl: ".swiper-button-next",
+					prevEl: ".swiper-button-prev",
+				},
+
+				breakpoints: {
+					0: {
+						slidesPerView: 1,
+					},
+					500: {
+						slidesPerView: 2,
+					},
+					768: {
+						slidesPerView: 3,
+					},
+					992: {
+						slidesPerView: 3,
+					},
+					1200: {
+						slidesPerView: 3,
+					},
+				},
+			});
+		</script>
+		<!-- Initialize Swiper -->
 	</body>
 </html>
