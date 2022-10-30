@@ -22,6 +22,7 @@
 			referrerpolicy="no-referrer"
 		/>
 		<!-- Font Awesome CDN -->
+		<link rel="stylesheet" href="css/style.css" />
 		<link rel="stylesheet" href="css/register.css" />
 		<style>
 			@media all and (min-width: 992px) {
@@ -43,7 +44,7 @@
 	</head>
 	<body>
 		<!-- Header -->
-		<div class="header pt-3 pb-5 mb-5">
+		<div class="header">
 			<nav class="navbar navbar-expand-lg navbar-light">
 				<div class="container pb-3">
 					<a class="navbar-brand" href="#">
@@ -172,135 +173,197 @@
 						HMRC in 2 weeks
 					</p>
 
-					<form class="row d-flex justify-content-between">
-						<div class="col-md-5">
-							<label for="name" class="form-label">Name</label>
-							<input
-								type="text"
-								class="form-control"
-								id="name"
-								aria-describedby="nameHelp"
-							/>
-						</div>
-						<div class="col-md-5">
-							<label for="nationalInsurance" class="form-label"
-								>National Insurance
-							</label>
-							<input
-								type="text"
-								class="form-control"
-								id="nationalInsurance"
-								name="nationalInsurance"
-								aria-describedby="nationalInsuranceHelp"
-							/>
-						</div>
-						<div class="col-md-5">
-							<label for="email" class="form-label">Email</label>
-							<input
-								type="email"
-								class="form-control"
-								id="email"
-								aria-describedby="emailHelp"
-							/>
-						</div>
-						<div class="col-md-5">
-							<label for="typeOfWork" class="form-label"
-								>Type of Work
-							</label>
-							<input
-								type="text"
-								class="form-control"
-								id="typeOfWork"
-								name="typeOfWork"
-								aria-describedby="typeOfWorkHelp"
-							/>
-						</div>
-						<div class="col-md-5">
-							<label for="number" class="form-label">Phone</label>
-							<input
-								type="text"
-								class="form-control"
-								id="number"
-								aria-describedby="numberHelp"
-							/>
-						</div>
-						<div class="col-md-5">
-							<label for="dateStart" class="form-label"
-								>Date started working self employed
-							</label>
-							<input
-								type="text"
-								class="form-control"
-								id="dateStart"
-								name="dateStart"
-								aria-describedby="dateStartHelp"
-							/>
-						</div>
-						<div class="col-md-5">
-							<label for="address" class="form-label"
-								>Address</label
-							>
-							<textarea
-								class="form-control"
-								name="address"
-								id="address"
-								cols="30"
-								rows="5"
-							></textarea>
-						</div>
-						<div class="col-md-5">
+					<form class="row">
+						<div class="col-md-6">
 							<div class="row">
 								<div class="col-md-12">
-									<label for="birth" class="form-label"
-										>Date of Birth
-									</label>
+									<label for="name" class="form-label"
+										>Name</label
+									>
 									<input
 										type="text"
 										class="form-control"
-										id="birth"
-										name="birth"
+										id="name"
 										aria-describedby="nameHelp"
 									/>
 								</div>
 								<div class="col-md-12">
-									<label for="requiredCIS" class="form-label"
-										>Required CIS Registration
-									</label>
-									<div>
-										<div
-											class="form-check form-check-inline"
-										>
-											<input
-												class="form-check-input"
-												type="checkbox"
-												id="requiredCISYes"
-												value="option1"
-											/>
-											<label
-												class="form-check-label"
-												for="requiredCISYes"
-												>Yes</label
+									<label for="email" class="form-label"
+										>Email</label
+									>
+									<input
+										type="email"
+										class="form-control"
+										id="email"
+										aria-describedby="emailHelp"
+									/>
+								</div>
+								<div class="col-md-12">
+									<label for="number" class="form-label"
+										>Phone</label
+									>
+									<input
+										type="text"
+										class="form-control"
+										id="number"
+										aria-describedby="numberHelp"
+									/>
+								</div>
+								<div class="col-md-12">
+									<label for="address" class="form-label"
+										>Address</label
+									>
+									<textarea
+										class="form-control"
+										name="address"
+										id="address"
+										cols="30"
+										rows="3"
+									></textarea>
+								</div>
+
+								<div class="col-md-12">
+									<div class="row">
+										<div class="col-md-4">
+											<label for="town" class="form-label"
+												>Town</label
 											>
+											<input
+												type="text"
+												class="form-control"
+												id="town"
+												aria-describedby="townHelp"
+											/>
 										</div>
-										<div
-											class="form-check form-check-inline"
-										>
-											<input
-												class="form-check-input"
-												type="checkbox"
-												id="requiredCISNo"
-												value="option2"
-											/>
-											<label
-												class="form-check-label"
-												for="requiredCISNo"
-												>No</label
+										<div class="col-md-4">
+											<label for="city" class="form-label"
+												>City</label
 											>
+											<input
+												type="text"
+												class="form-control"
+												id="city"
+												aria-describedby="cityHelp"
+											/>
+										</div>
+										<div class="col-md-4">
+											<label
+												for="postal-code"
+												class="form-label"
+												>Postal Code</label
+											>
+											<input
+												type="text"
+												class="form-control"
+												id="postal-code"
+												aria-describedby="postalCodeHelp"
+											/>
 										</div>
 									</div>
 								</div>
 							</div>
 						</div>
+
+						<div class="col-md-6">
+							<div class="row">
+								<div class="col-md-12">
+									<label
+										for="nationalInsurance"
+										class="form-label"
+										>National Insurance
+									</label>
+									<input
+										type="text"
+										class="form-control"
+										id="nationalInsurance"
+										name="nationalInsurance"
+										aria-describedby="nationalInsuranceHelp"
+									/>
+								</div>
+								<div class="col-md-12">
+									<label for="typeOfWork" class="form-label"
+										>Type of Work
+									</label>
+									<input
+										type="text"
+										class="form-control"
+										id="typeOfWork"
+										name="typeOfWork"
+										aria-describedby="typeOfWorkHelp"
+									/>
+								</div>
+								<div class="col-md-12">
+									<label for="dateStart" class="form-label"
+										>Date started working self employed
+									</label>
+									<input
+										type="text"
+										class="form-control"
+										id="dateStart"
+										name="dateStart"
+										aria-describedby="dateStartHelp"
+									/>
+								</div>
+								<div class="col-md-12">
+									<div class="row">
+										<div class="col-md-12">
+											<label
+												for="birth"
+												class="form-label"
+												>Date of Birth
+											</label>
+											<input
+												type="text"
+												class="form-control"
+												id="birth"
+												name="birth"
+												aria-describedby="nameHelp"
+											/>
+										</div>
+										<div class="col-md-12">
+											<label
+												for="requiredCIS"
+												class="form-label"
+												>Required CIS Registration
+											</label>
+											<div>
+												<div
+													class="form-check form-check-inline"
+												>
+													<input
+														class="form-check-input"
+														type="checkbox"
+														id="requiredCISYes"
+														value="option1"
+													/>
+													<label
+														class="form-check-label"
+														for="requiredCISYes"
+														>Yes</label
+													>
+												</div>
+												<div
+													class="form-check form-check-inline"
+												>
+													<input
+														class="form-check-input"
+														type="checkbox"
+														id="requiredCISNo"
+														value="option2"
+													/>
+													<label
+														class="form-check-label"
+														for="requiredCISNo"
+														>No</label
+													>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
 						<div class="col-12 d-flex justify-content-center">
 							<button type="submit" class="btn btn-primary">
 								Next
