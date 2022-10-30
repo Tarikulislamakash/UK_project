@@ -1,38 +1,14 @@
 /* Header */
-
-.navbar-brand{
-}
-
-.navbar-nav{
-    z-index: 99;
-}
-
 .navbar-nav li a{
-    color: #000 !important;
+    color: #333 !important;
 }
 
 .bg-light{
-    /* background-color: #fff !important; */
-}
-
-.header{
-    
+    background-color: #fff !important;
 }
 
 .header ul li{
-    margin-left: 3rem !important;
-    transition: 1s all;
-}
-
-.header ul li .dropdown-menu{
-    padding: 0rem !important;
-    padding-top: 2% !important;
-    padding-bottom: 2% !important;
-    margin-top: 4% !important
-}
-
-.header ul li .dropdown-menu li{
-    margin-left: 0rem !important;
+    margin-left: 2.5rem !important;
     transition: 1s all;
 }
 
@@ -43,181 +19,76 @@
 
 .header ul li a{
     padding: 0px !important;
-    color: #000 !important;
-}
-
-
-
-.header ul li:after {
-	content: '';
-	display: block;
-	margin: auto;
-	height: 1px;
-	width: 0px;
-	background: transparent;
-	transition: width .5s ease, background-color .5s ease;
+    color: #333 !important;
 }
 
 .header ul .active:after,
 .header ul li:hover:after {
 	width: 100%;
-	background: #000;
-}
-
-.navbar .container{
-    border-bottom: 4px solid #7C7FC7 !important;
+	background: #333;
 }
 /* Header */
 
 /* content */
 .content{
     margin-bottom: 10% !important;
+    padding-top: 3% !important;
+    border-top: 3px solid #84A2CF !important;
 }
-.content{}
-.content{}
+.content h1{}
+
+.content h3{}
 /* content */
-
-/* Contact Us */
-.contact-us{
-    margin-bottom: 22% !important;
-}
-
-.contact-us-left{
-    margin-top: 45vh !important;
-}
-
-.contact-us-right{
-    position: absolute;
-    right: 0;
-    padding-right: 0px !important;
-    margin-bottom: 25vh !important;
-}
-
-.contact-us .nav{}
-
-.contact-us .nav li{
-    border: 2px solid #0d6efd !important;
-    border-radius: 50% !important;
-    width: 4rem !important;
-    height: 4rem !important;
-    padding-top: .4rem !important;
-    margin-right: 1.5rem !important;
-}
-
-.contact-us .nav li a{}
-
-.contact-us .nav li a i{
-    /* border: 2px solid #0d6efd !important; */
-    /* padding: .5rem !important; */
-    /* border-radius: 50% !important; */
-    /* width: 4rem !important; */
-    /* height: 4rem !important; */
-    /* margin: auto !important; */
-}
-
-/* .contact-us-right{
-    position: absolute;
-    right: 0;
-    padding-right: 0 !important;
-}
-
-.contact-us-right img{
-    height: 50vh !important;
-} */
-/* Contact Us */
-
-
-/* Footer */
-.footer{
-    background-color: #EAEDF6 !important;
-    padding-top: 2rem !important;
-    padding-bottom: 2rem !important;
-}
-
-.footer img{
-    width: 30% !important;
-}
-
-.footer .row .col-md-6 p{
-    margin-bottom: 1rem !important;
-}
-
-.footer .nav{}
-
-.footer .nav li{
-    /* border-right: 1.2rme !important; */
-}
-
-.footer .nav li a{
-    color: #333 !important;
-    padding: 0px !important;
-    border-right: 2px solid #333 !important;
-    padding-left: 1rem !important;
-    padding-right: 1rem !important;
-}
-
-.footer .nav li a:last-child{
-    border-right: 0px !important;
-}
-/* Footer */
-
 
 
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (min-width: 320px) {
 
+    .content h1{
+        font-size: 160% !important;
+    }
+
+    .content h3{
+        font-size: 130% !important;
+    }
+
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 500px) {
 
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
 
+    .content h1{
+        font-size: 180% !important;
+    }
+
+    .content h3{
+        font-size: 150% !important;
+    }
+
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
 
-    /* .contact-us .nav li{
-        width: 3rem !important;
-        height: 3rem !important;
-        padding-top: .1rem !important;
-        margin-right: 1rem !important;
+    .content h1{
+        font-size: 200% !important;
     }
 
-    .contact-us .nav li i{
-        font-size: 150% !important;
+    .content h3{
+        font-size: 165% !important;
     }
-
-    .footer{
-        padding-top: 1.2rem !important;
-        padding-bottom: 1.2rem !important;
-    } */
 
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
 
-    /* .contact-us .nav li{
-        border: 2px solid #0d6efd !important;
-        border-radius: 50% !important;
-        width: 4rem !important;
-        height: 4rem !important;
-        padding-top: .4rem !important;
-        margin-right: 1.5rem !important;
-    }
-
-    .contact-us .nav li i{
-        font-size: 200% !important;
-    }
-
-    .footer{
-        padding-top: 2rem !important;
-        padding-bottom: 2rem !important;
-    } */
+    
+    
 }
