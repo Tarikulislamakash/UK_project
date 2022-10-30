@@ -28,7 +28,6 @@
 
 
 
-
 /* Service We offer */
 .service-we-offer{
     margin-bottom: 20vh !important;
@@ -53,11 +52,9 @@
 }
 
 .service-we-offer-right{
-    /* background-image: url('../asset/Group 21992@2x.png'); */
     background-size: cover;
     height: 120vh !important;
     position: relative;
-    /* background-repeat: no-repeat; */
 }
 
 .service-we-offer-right img{
@@ -65,7 +62,6 @@
 }
 
 .offer-form{
-    /* padding: 2rem !important; */
     width: 75% !important;
     position: absolute !important;
     top: 40vh !important;
@@ -109,8 +105,6 @@
 
 .service-we-offer-right .form-control:active,
 .service-we-offer-right .form-control:focus{
-    /* outline: none !important;
-    border: 0px !important; */
     box-shadow: none !important;
 }
 /* Service We offer */

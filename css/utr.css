@@ -1,64 +1,6 @@
-/* Header */
-
-.navbar-brand{
-    z-index: 9999;
-}
-
-.navbar-nav{
-    z-index: 99;
-}
-
-.navbar-nav li a{
-    color: #fff !important;
-}
-
-.bg-light{
-    background-color: #fff !important;
-}
-
-.header{
-    z-index: 999;
-}
-
-.header ul li{
-    margin-left: 3rem !important;
-    transition: 1s all;
-}
-
-/* .header ul li:hover{
-    border-bottom: 1px solid #333 !important;
-    transition: 1s all;
-} */
-
-.header ul li a{
-    padding: 0px !important;
-    color: #fff !important;
-}
-
-
-
-/* .header ul .active:after, */
-.header ul li:after {
-	content: '';
-	display: block;
-	margin: auto;
-	height: 1px;
-	width: 0px;
-	background: transparent;
-	transition: width .5s ease, background-color .5s ease;
-}
-
-.header ul .active:after,
-.header ul li:hover:after {
-	width: 100%;
-	background: #fff;
-}
-/* Header */
-
-
-/* Self */
+/* UTR */
 .utr{
-    margin-bottom: 25% !important;
+    margin-bottom: 15% !important;
 }
 
 .utr h1{
@@ -68,7 +10,7 @@
 
 .utr p{
     margin-top: 10% !important;
-    font-size: 138% !important;
+    font-size: 120% !important;
     font-weight: 500;
 }
 
@@ -82,34 +24,18 @@
 .utr-left{
     margin-top: 4% !important;
 }
-/* Self */
+/* UTR */
+
 
 
 /* Service We offer */
 .service-we-offer{
-    /* margin-top: 10vh !important; */
-    margin-bottom: 20% !important;
+    margin-bottom: 20vh !important;
 }
 
 .service-we-offer-left{}
 
-.service-we-offer-left p{
-    font-size: 150% !important;
-    font-weight: 500;
-    margin-bottom: 6% !important;
-}
-
-.service-we-offer-left p:last-child{
-    margin-bottom: 0% !important;
-}
-
-.service-we-offer-left h2{
-    margin-bottom: 4% !important;
-}
-
-.service-we-offer-left .list-group{
-    margin-bottom: 3% !important;
-}
+.service-we-offer-left .list-group{}
 
 .service-we-offer-left .list-group li img{
     width: 1.5rem !important;
@@ -123,22 +49,19 @@
     font-size: 1.6rem !important;
     margin-bottom: 1.2rem !important;
     color: #000 !important;
-    font-weight: 500;
 }
+
 .service-we-offer-right{
-    /* background-image: url('../asset/Group 21992@2x.png'); */
     background-size: cover;
     height: 120vh !important;
     position: relative;
-    /* background-repeat: no-repeat; */
 }
 
 .service-we-offer-right img{
-    height: 90vh !important;
+    height: 100% !important;
 }
 
 .offer-form{
-    /* padding: 2rem !important; */
     width: 75% !important;
     position: absolute !important;
     top: 40vh !important;
@@ -182,530 +105,245 @@
 
 .service-we-offer-right .form-control:active,
 .service-we-offer-right .form-control:focus{
-    /* outline: none !important;
-    border: 0px !important; */
     box-shadow: none !important;
 }
-
 /* Service We offer */
 
-
-/* Oue Service */
-.our-service{
-    height: 100vh;
-    background-image: url('../asset/Group\ 21983@2x.png');
-    background-position: center left;
-    background-size: 40% 100%;
-    background-repeat: no-repeat;
-}
-
-.our-service h1{
-    border-bottom: 2px dotted #333;
-    border-color: blueviolet;
-}
-
-.single-service{
-    background-color: #fff !important;
-    border: 1px solid #333;
-    border-radius: 2.5rem;
-}
-
-.service .col-md-3{
-    transition: 1s all;
-}
-
-.service .col-md-3:hover {
-    padding: 0px Solid !important;
-    transform: scale(1.1);
-}
-
-.single-service h5{
-    border-bottom: 1px dotted blueviolet;
-}
-
-.single-service button{
-    background-image: linear-gradient(to right, #a1c4fd 0%, #c2e9fb 51%, #a1c4fd 100%);
-    border: none !important;
-    padding: .5rem !important;
-    padding-left: 1.4rem !important;
-    padding-right: 1.4rem !important;
-    border-radius: 2rem !important;
-    color: #fff !important;
-}
-
-.splide__track{
-    margin-bottom: 3rem !important;
-}
-
-.splide__arrows{
-    display: none !important;
-}
-
-.splide__pagination__page .is-active{
-    /* color: #87ADD2 !important; */
-}
-
-.splide__pagination__page {
-    width: .4rem !important;
-    height: .4rem !important;
-}
-
-.splide__pagination__page.is-active {
-    background-color: #87ACD2 !important;
-}
-
-.splide__pagination{
-    /* position: absolute;
-    bottom: 0; */
-    /* width: 1rem; */
-    /* height: 1rem; */
-    /* color: #ededed !important; */
-    /* margin-top: 5rem !important; */
-    /* margin-bottom: 1rem !important; */
-}
-/* Oue Service */
-
-/* Book Appointment */
-.book-appointment{}
-.book-appointment .appointment-left{
-    position: absolute;
-    left: -3.5rem !important;
-    padding-left: 0 !important;
-}
-.book-appointment .appointment-right{}
-.book-appointment .appointment-right h6,
-.book-appointment .appointment-right p,
-.book-appointment .appointment-right label{
-    color: #666 !important;
-}
-
-.book-appointment .appointment-right .form-control{
-    background-color: #E5E8F4 !important;
-    border-radius: .5rem !important;
-    padding-left: 1.5rem !important;
-    padding-top: .5rem !important;
-    padding-bottom: .5rem !important;
-    border: .1rem solid #555 !important;
-}
-
-.book-appointment .appointment-right label{
-    text-align: left !important;
-}
-
-.book-appointment .appointment-right button{
-    background-image: linear-gradient(to right, #a1c4fd 0%, #c2e9fb 51%, #a1c4fd 100%);
-    border: none !important;
-    padding: 1rem !important;
-    padding-left: 2.5rem !important;
-    padding-right: 2.5rem !important;
-    border-radius: 2rem !important;
-    color: #fff !important;
-    font-size: large;
-}
-
-.book-appointment .appointment-right button:focus
-.book-appointment .appointment-right button:active
-{
-    box-shadow: none !important;
-    border: none !important;
-    outline: none !important;
-}
-
-.book-appointment .appointment-right .form-control:active,
-.book-appointment .appointment-right .form-control:focus{
-    /* outline: none !important;
-    border: 0px !important; */
-    box-shadow: none !important;
-}
-
-.book-appointment .appointment-right{}
-.book-appointment{}
-.book-appointment{}
-/* Book Appointment */
-
-
-/* Contact Us */
-.contact-us{
-    
-}
-
-.contact-us-right{
-    position: absolute;
-    right: 0;
-    padding-right: 0px !important;
-    margin-bottom: 25vh !important;
-}
-
-.contact-us .nav{}
-
-.contact-us .nav li{
-    border: 2px solid #0d6efd !important;
-    border-radius: 50% !important;
-    width: 4rem !important;
-    height: 4rem !important;
-    padding-top: .4rem !important;
-    margin-right: 1.5rem !important;
-}
-
-.contact-us .nav li a{}
-
-.contact-us .nav li a i{
-    /* border: 2px solid #0d6efd !important; */
-    /* padding: .5rem !important; */
-    /* border-radius: 50% !important; */
-    /* width: 4rem !important; */
-    /* height: 4rem !important; */
-    /* margin: auto !important; */
-}
-
-/* .contact-us-right{
-    position: absolute;
-    right: 0;
-    padding-right: 0 !important;
-}
-
-.contact-us-right img{
-    height: 50vh !important;
-} */
-/* Contact Us */
-
-
-/* Footer */
-.footer{
-    background-color: #EAEDF6 !important;
-    padding-top: 2rem !important;
-    padding-bottom: 2rem !important;
-}
-
-.footer img{
-    width: 30% !important;
-}
-
-.footer .row .col-md-6 p{
-    margin-bottom: 1rem !important;
-}
-
-.footer .nav{}
-
-.footer .nav li{
-    /* border-right: 1.2rme !important; */
-}
-
-.footer .nav li a{
-    color: #333 !important;
-    padding: 0px !important;
-    border-right: 2px solid #333 !important;
-    padding-left: 1rem !important;
-    padding-right: 1rem !important;
-}
-
-.footer .nav li a:last-child{
-    border-right: 0px !important;
-}
-/* Footer */
 
 
 
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (min-width: 320px) {}
+@media only screen and (min-width: 320px) {
+
+    /* UTR */
+    .utr-right{
+        top: 18vw !important;
+    }
+
+    .utr-right img{
+        width: 70% !important;
+        position: absolute;
+        right: 0 !important;
+    }
+
+    .utr-left{
+        margin-top: 70vw !important;
+    }
+
+    .utr-left h1{
+        font-size: 140% !important;
+    }
+
+    .utr-left p{
+        font-size: 95% !important;
+    }
+    /* UTR */
+
+    /* Service We Offer */
+    .service-we-offer{}
+
+    .service-we-offer-left{}
+
+    .service-we-offer h2{
+        font-size: 140% !important;
+        margin-top: 2rem !important;
+    }
+
+    .service-we-offer-left .list-group li{
+        font-size: 1rem !important;
+        margin-bottom: 0rem !important;
+    }
+
+    .service-we-offer-left .list-group li img{
+        width: 1.2rem !important;
+        height: 1.2rem !important;
+        margin-top: 2% !important;
+    }
+
+    .service-we-offer-right{
+        height: 88vh !important;
+        margin-top: 3rem !important;
+    }
+    
+    .service-we-offer-right img{
+        height: 100% !important;
+    }
+    
+    .offer-form{
+        top: 32vh !important;
+        width: 15rem !important;
+    }
+    
+    .service-we-offer-right .form-control{
+        padding-left: 1.5rem !important;
+        padding-top: .3rem !important;
+        padding-bottom: .3rem !important;
+    }
+    
+    .service-we-offer-right button{
+        padding: .3rem !important;
+        padding-left: 2rem !important;
+        padding-right: 2rem !important;
+        font-size: medium;
+    }
+
+    .service-we-offer p{
+        font-size: 95% !important;
+    }
+    /* Service We Offer */
+
+}
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {}
+@media only screen and (min-width: 500px) {
+
+    /* UTR */
+    .utr{
+        margin-bottom: 12% !important;
+    }
+
+    .utr-left h1{
+        font-size: 160% !important;
+    }
+
+    .utr-left p{
+        font-size: 110% !important;
+    }
+    /* UTR */
+
+    /* Service We Offer */
+    .service-we-offer{}
+
+    .service-we-offer-left{}
+
+    .service-we-offer h1{
+        font-size: 180% !important;
+        margin-top: 2.5rem !important;
+    }
+
+    .service-we-offer-left .list-group li{
+        font-size: 1.2rem !important;
+    }
+
+    .service-we-offer p{
+        font-size: 110% !important;
+    }
+    /* Service We Offer */
+
+}
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {}
+@media only screen and (min-width: 768px) {
+
+    /* UTR */
+    .utr{
+        margin-bottom: 22% !important;
+        margin-top: 0px !important;
+    }
+
+    .utr-right img{
+        width: 80% !important;
+    }
+
+    .utr-left{
+        margin-top: 8vw !important;
+    }
+
+    .utr-left h1{
+        font-size: 180% !important;
+    }
+    .utr-left p{
+        font-size: 110% !important;
+    }
+    /* UTR */
+
+    /* Service We Offer */
+    .service-we-offer h1{
+        margin-bottom: 4rem !important;
+        font-size: 200% !important;
+    }
+
+    .service-we-offer-left .list-group li{
+        font-size: 1.4rem !important;
+        margin-bottom: 1rem !important;
+    }
+
+    .service-we-offer-left .list-group li img{
+        width: 1.4rem !important;
+        height: 1.4rem !important;
+        margin-top: 1.6% !important;
+    }
+
+    .service-we-offer-right{
+        height: 88vh !important;
+        margin-top: 0rem !important;
+    }
+    
+    .offer-form{
+        width: 15rem !important;
+    }
+    /* Service We Offer */
+
+}
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
 
-    .vat-filing h1{
-        width: 50% !important;
-        border-bottom: 2px dotted #87ACD2 !important;
-    }
-
-    .vat-filing-left{
-        margin-top: 0vh !important;
-        margin-bottom: 15vh;
-    }
-
-    .vat-filing h1{
-        font-size: 200% !important;
-    }
-    
-    .vat-filing h3{
-        font-size: 135% !important;
-        margin-top: 1.2rem !important;
-    }
-
-    .vat-filing h1,
-    .vat-filing button{
-        text-transform: uppercase !important;
-    }
-
-    /* Service We offer */
-    .service-we-offer{
-        /* margin-top: 5vh !important; */
-        margin-bottom: 0vh !important;
-    }
-
-    .service-we-offer h1{
-        margin-bottom: 15vh !important;
-    }
-
-    .service-we-offer-left{}
-
-    .service-we-offer-left .list-group{}
-
-    /* .service-we-offer-left .list-group li img{
-        width: 1.5rem !important;
-        height: 1.5rem !important;
-        margin-right: 1rem !important;
-    }
-
-    .service-we-offer-left .list-group li{
-        border: none !important;
-        font-size: 1.6rem !important;
-        margin-bottom: 1.2rem !important;
-        color: #000 !important;
-    }
-    .service-we-offer-right{
-        background-size: cover;
-        position: relative;
-    } */
-
-    .service-we-offer-right img{
-        height: 85% !important;
-        /* width: 100% !important; */
-    }
-
-    .offer-form{
-        width: 65% !important;
-        position: absolute !important;
-        top: 37vh !important;
-    }
-
-    .offer-form h3{
-        font-size: 140% !important;
-    }
-
-    .service-we-offer-right label{
-        /* color: #666 !important; */
-    }
-
-    .service-we-offer-right .form-control{
-        background-color: #fff !important;
-        border-radius: 5rem !important;
-        padding-left: 1.5rem !important;
-        padding-top: .3rem !important;
-        padding-bottom: .3rem !important;
-        border: .1rem solid #555 !important;
-    }
-
-    .service-we-offer-right label{
-        /* text-align: left !important; */
-    }
-
-    .service-we-offer-right button{
-        background-image: linear-gradient(to right, #a1c4fd 0%, #c2e9fb 51%, #a1c4fd 100%);
-        border: none !important;
-        padding: .2rem !important;
-        padding-left: 2.5rem !important;
-        padding-right: 2.5rem !important;
-        border-radius: 2rem !important;
-        color: #fff !important;
-        font-size: large;
-    }
-
-    .service-we-offer-right button:focus
-    .service-we-offer-right button:active
-    {
-        box-shadow: none !important;
-        border: none !important;
-        outline: none !important;
-    }
-
-    .service-we-offer-right .form-control:active,
-    .service-we-offer-right .form-control:focus{
-        /* outline: none !important;
-        border: 0px !important; */
-        box-shadow: none !important;
-    }
-
-    /* Service We offer */
-
-    .contact-us{
-        /* margin-top: 40vh; */
+    /* UTR */
+    .utr{
         margin-bottom: 25% !important;
     }
 
-    .contact-us-left{
-        margin-top: 20% !important;
+    .utr-right{
+        top: 0vw !important;
     }
 
-    .contact-us .nav li{
-        width: 3rem !important;
-        height: 3rem !important;
-        padding-top: .1rem !important;
-        margin-right: 1rem !important;
+    .utr-right img{
+        width: 100% !important;
     }
 
-    .contact-us .nav li i{
-        font-size: 150% !important;
+    .utr-left{
+        margin-top: 7vh !important;
     }
 
-    .footer{
-        padding-top: 1.2rem !important;
-        padding-bottom: 1.2rem !important;
+    .utr-left p{
+        font-size: 120% !important;
     }
+    /* UTR */
+
+    /* Service We Offer */
+    .service-we-offer-left .list-group li{
+        font-size: 1.5rem !important;
+    }
+
+    .offer-form{
+        top: 30vh !important;
+        width: 15rem !important;
+    }
+
+    .service-we-offer-right .form-control{
+        padding-left: 1.5rem !important;
+        padding-top: .3rem !important;
+        padding-bottom: .3rem !important;
+    }
+    
+    .service-we-offer-right button{
+        padding: .3rem !important;
+        padding-left: 2rem !important;
+        padding-right: 2rem !important;
+        font-size: medium;
+    }
+
+    .service-we-offer p{
+        font-size: 120% !important;
+    }
+    /* Service We Offer */
 
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
 
-    .vat-filing h1{
-        width: 40% !important;
-        border-bottom: 2px dotted #87ACD2 !important;
-    }
 
-    .vat-filing-left{
-        margin-top: 6vh !important;
-        margin-bottom: 25vh !important;
-    }
-
-    .vat-filing h1{
-        font-size: 220% !important;
-    }
     
-    .vat-filing h3{
-        font-size: 160% !important;
-        text-transform: capitalize;
-        line-height: 2.5rem !important;
-    }
-
-    .vat-filing h1,
-    .vat-filing button{
-        text-transform: uppercase !important;
-    }
-
-    /* Service We offer */
-    .service-we-offer{
-        margin-top: 0vh !important;
-        margin-bottom: 20vh !important;
-    }
-
-    .service-we-offer h1{
-        margin-bottom: 15vh !important;
-    }
-
-    .service-we-offer-left{}
-
-    .service-we-offer-left .list-group{}
-
-    .service-we-offer-left .list-group li img{
-        width: 1.5rem !important;
-        height: 1.5rem !important;
-        margin-right: 1rem !important;
-    }
-
-    .service-we-offer-left .list-group li{
-        border: none !important;
-        font-size: 1.6rem !important;
-        margin-bottom: 1.2rem !important;
-        color: #000 !important;
-    }
-    .service-we-offer-right{
-        background-size: cover;
-        position: relative;
-    }
-
-    .service-we-offer-right img{
-        height: 100% !important;
-    }
-
-    .offer-form{
-        width: 75% !important;
-        position: absolute !important;
-        top: 45vh !important;
-    }
-
-    .offer-form h3{
-        font-size: 180% !important;
-    }
-
-    .service-we-offer-right label{
-        color: #666 !important;
-    }
-
-    .service-we-offer-right .form-control{
-        background-color: #fff !important;
-        border-radius: 5rem !important;
-        padding-left: 1.5rem !important;
-        padding-top: .5rem !important;
-        padding-bottom: .5rem !important;
-        border: .1rem solid #555 !important;
-    }
-
-    .service-we-offer-right label{
-        text-align: left !important;
-    }
-
-    .service-we-offer-right button{
-        background-image: linear-gradient(to right, #a1c4fd 0%, #c2e9fb 51%, #a1c4fd 100%);
-        border: none !important;
-        padding: .4rem !important;
-        padding-left: 2.5rem !important;
-        padding-right: 2.5rem !important;
-        border-radius: 2rem !important;
-        color: #fff !important;
-        font-size: large;
-    }
-
-    .service-we-offer-right button:focus
-    .service-we-offer-right button:active
-    {
-        box-shadow: none !important;
-        border: none !important;
-        outline: none !important;
-    }
-
-    .service-we-offer-right .form-control:active,
-    .service-we-offer-right .form-control:focus{
-        /* outline: none !important;
-        border: 0px !important; */
-        box-shadow: none !important;
-    }
-
-    /* Service We offer */
-
-    .contact-us{
-        /* margin-top: 65vh; */
-        margin-bottom: 22% !important;
-    }
-
-    .contact-us .row{
-        
-    }
-
-    .contact-us-left{
-        margin-top: 45vh !important;
-    }
-
-    .contact-us .nav li{
-        border: 2px solid #0d6efd !important;
-        border-radius: 50% !important;
-        width: 4rem !important;
-        height: 4rem !important;
-        padding-top: .4rem !important;
-        margin-right: 1.5rem !important;
-    }
-
-    .contact-us .nav li i{
-        font-size: 200% !important;
-    }
-
-    .footer{
-        padding-top: 2rem !important;
-        padding-bottom: 2rem !important;
-    }
 }
